@@ -3,56 +3,59 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a Research Fellow with the School of Mechanical and Aerospace Engineering at Nanyang Technological University, Singapore. I received my Ph.D. from the School of Vehicle and Mobility, Tsinghua University, and my B.S. degree in Mechanical Design and Automation from Zhejiang University.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research focuses on autonomous robotic systems, with particular interests in mobile robot navigation, autonomous exploration, multi-robot coordination, fault-tolerant control, and robust and safe reinforcement learning. I am especially interested in building reliable navigation and control systems that remain usable in unknown, structurally complex, and partially observable environments.
 
+# News
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.12*: Joined Nanyang Technological University as a Research Fellow.
+- *2023.10*: Received the Ph.D. degree from Tsinghua University.
+- *2022.02 - 2023.02*: Visited Nanyang Technological University as a CSC-supported visiting researcher.
 
-# 📝 Publications 
+# Research Interests
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- Graph-based robot navigation and sparse world models
+- Autonomous exploration in unknown environments
+- Multi-robot coordination and trajectory-level conflict resolution
+- Data-driven predictive control for autonomous vehicles
+- Fault-tolerant control and safe learning-based control
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+# Selected Publications
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- **Y. Ji**, J. Zhang, and C. Lv, "Data-Driven Model-Free Robust Predictive Control for Autonomous Vehicle Motion Control Using Signal-Based System Representation," *IEEE Transactions on Intelligent Transportation Systems*, 2026.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+- **Y. Ji**, J. Zhang, C. Lv, C. He, and H. Chen, "Optimal Path Tracking Control Based on Online Modelling for Autonomous Vehicle with Completely Unknown Parameters," *IEEE Transactions on Intelligent Transportation Systems*, 2023.
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- **Y. Ji**, J. Zhang, C. He, R. Ma, X. Hou, and H. Hu, "Constraint Performance Pressure Tracking Control with Asymmetric Continuous Friction Compensation for Booster-Based Brake-by-Wire System," *Mechanical Systems and Signal Processing*, 2022.
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **Y. Ji**, J. Zhang, C. He, X. Hou, W. Liu, and J. Han, "Wheel Braking Pressure Control Based on Central Booster Electrohydraulic Brake-by-Wire System," *IEEE Transactions on Transportation Electrification*, 2022.
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **Y. Ji**, J. Zhang, C. Lv, C. He, X. Hou, and J. Han, "Fault-Tolerant Vehicle Stability Control Based on Active Steering and Direct Yaw Moment with Finite-Time Constraint Performance Recovery," *IEEE Transactions on Vehicular Technology*, 2022.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- **Y. Ji**, Y. Zhou, S. Wu, Z. Jin, J. Zhang, and C. Lv, "Graph Field Navigation: A Sparse Field-Centric Architecture for Robot Navigation, Autonomous Exploration, and Multi-Robot Coordination," manuscript in preparation.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# Education and Experience
+
+- *2023.12 - Present*, Research Fellow, School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore.
+- *2018.08 - 2023.10*, Ph.D., School of Vehicle and Mobility, Tsinghua University, China.
+- *2022.02 - 2023.02*, Visiting Researcher, School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore.
+- *2014.08 - 2018.06*, B.S., Mechanical Design and Automation, Zhejiang University, China.
+
+# Projects
+
+- **Graph Field Navigation**: sparse graph-field world modeling, smooth trajectory generation, online exploration, and multi-robot timed trajectory coordination.
+- **EDGE / Multi-Robot Exploration**: ROS 2-based multi-robot exploration and navigation in unknown environments with graph mapping and frontier reasoning.
+- **Data-Driven Predictive Vehicle Control**: signal-based system representation and model-free predictive control for autonomous vehicle motion control.
+
+# Contact
+
+- Email: [yuan.ji@ntu.edu.sg](mailto:yuan.ji@ntu.edu.sg)
+- GitHub: [JiyuanTHU](https://github.com/JiyuanTHU)
