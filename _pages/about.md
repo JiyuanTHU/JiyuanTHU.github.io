@@ -56,6 +56,21 @@ My research lies at the intersection of autonomous robotic systems, physical AI,
   </div>
 </div>
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">TMECH Under Review</div>
+      <img src='images/projects/fdrg_cover_carpark.jpg' alt="FDRG graph mapping result in a multi-layer carpark" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text'>
+    <p><strong>Terrain-Aware Fast Dynamic Roadmap Graph for Ground Robot Navigation with Traversability and Connectivity Guarantees</strong></p>
+    <p><strong>Y. Ji</strong>, Y. Zhou, S. Wu, Z. Jin, J. Zhang, and C. Lv</p>
+    <p><em>IEEE/ASME Transactions on Mechatronics</em>, under review.</p>
+    <p>A terrain-aware fast dynamic roadmap graph for ground robot navigation in unknown 2.5D and multi-layer environments. The method constructs sparse graph maps with traversability, reachable connectivity, and dynamic edge-feasibility guarantees for online navigation.</p>
+  </div>
+</div>
+
 # Education and Experience
 
 - *2023.12 - Present*, Research Fellow, School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore.
